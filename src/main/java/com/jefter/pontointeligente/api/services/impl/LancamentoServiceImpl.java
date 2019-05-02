@@ -23,6 +23,7 @@ public class LancamentoServiceImpl implements LancamentoService {
 	@Autowired
 	private LancamentoRepository lancamentoRepository;
 
+	@Cacheable("lancamentoPorIdFunc")
 	public Page<Lancamento> buscarPorFuncionarioId(Long funcionarioId, PageRequest pageRequest) {
 		log.info("Buscando lançamentos para o funcionário ID {}", funcionarioId);
 		return this.lancamentoRepository.findByFuncionarioId(funcionarioId, pageRequest);
@@ -34,7 +35,7 @@ public class LancamentoServiceImpl implements LancamentoService {
 		return this.lancamentoRepository.findById(id);
 	}
 
-	@CachePut("lancamentoPorId")
+	@CachePut({"lancamentoPorId", "lancamentoPorIdFunc"})
 	public Lancamento persistir(Lancamento lancamento) {
 		log.info("Persistindo o lançamento: {}", lancamento);
 		return this.lancamentoRepository.save(lancamento);
@@ -44,5 +45,4 @@ public class LancamentoServiceImpl implements LancamentoService {
 		log.info("Removendo o lançamento ID {}", id);
 		this.lancamentoRepository.deleteById(id);
 	}
-
 }

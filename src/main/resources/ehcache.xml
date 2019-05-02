@@ -1,0 +1,36 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd">
+	
+	<!-- DEFINICOES DE CACHE PARA LANCAMENTO -->
+	<cache name="lancamentoPorId" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+	
+	<cache name="lancamentoPorIdFunc" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+	
+	<!-- DEFINICOES DE CACHE PARA FUNCIONARIO -->
+	<cache name="funcionarioPorCpf" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+	
+	<cache name="funcionarioPorEmail" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+	
+	<cache name="funcionarioPorId" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+	
+	<!-- DEFINICOES DE CACHE PARA EMPRESA -->
+	<cache name="empresaPorCnpj" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+</ehcache>
