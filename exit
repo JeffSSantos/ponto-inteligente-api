@@ -1,0 +1,103 @@
+[33mcommit 5a5c9f19b5f26e3a74f9b216aa84a52f56d9c72a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Tue Apr 30 13:35:44 2019 -0300
+
+    Implementado autenticacao por token JWT.
+    
+    Signed-off-by: JeffSSantos <jefter_santana@hotmail.com>
+
+[33mcommit ddca166c07de1131dbb31d4da9e1827087847738[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Mon Apr 29 13:34:49 2019 -0300
+
+    Criado CRUD para Lancamento.
+
+[33mcommit 1fe6dd4d9ecdb4a114e3cd7d2bd32eb99fd74499[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Mon Apr 29 11:20:27 2019 -0300
+
+    Criado update de funcionarios.
+
+[33mcommit f69a5a79cbd414b28c9c95d41860dedaf541afc3[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Mon Apr 29 10:59:34 2019 -0300
+
+    Criado controller de Empresa.
+
+[33mcommit 7b304ab88d5d0aed18f05fb5faa5f436703e7517[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Mon Apr 29 10:35:09 2019 -0300
+
+    Criado cadastro de pessoa fisica.
+
+[33mcommit 31da9403f76c1f4bd796a2979cc93c896aee8447[m
+Author: JeffSSantos <jefter_santana@hotmail.com>
+Date:   Sat Apr 27 15:17:04 2019 -0300
+
+    Criado servico para cadastro de pessoa juridica.
+
+[33mcommit 494e2358fa84a10ecdaa5f5336935b627523f54c[m
+Author: JeffSSantos <jefter_santana@hotmail.com>
+Date:   Sat Apr 27 13:29:18 2019 -0300
+
+    Criado servico e testes unitarios para Lancamento.
+
+[33mcommit a12e103c75a482b416ad6c8e1ff580681927cbb2[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 16:46:03 2019 -0300
+
+    Criadas entidades e servicos, suporte ao Flyway, testes.
+
+[33mcommit fad64cb5c7df2bd272e1f98f0a3c4ed248f4e120[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 14:11:52 2019 -0300
+
+    Alterado driver class apos problema na integracao continua.
+
+[33mcommit 874e89acf454a750343234187cdf77fca10f8d55[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 14:02:30 2019 -0300
+
+    Adicionadas configuracoes para driver, dialeto e timezone da conexao MySQL.
+
+[33mcommit 405acb8d9b9d25dba8d132ad79525ac340fba4cc[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 13:39:38 2019 -0300
+
+    Adicionado suporte ao JPA, MySQL e H2.
+
+[33mcommit b432b14aff1d781c6d343be5dcac1ec27a07b852[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 11:48:59 2019 -0300
+
+    Adicionado bagde do TravisCI ao repositorio.
+
+[33mcommit 6ed1602cac9a24fd3413f653b784fd3425a9d976[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 11:40:59 2019 -0300
+
+    Adicionado permissao ao mvnw.
+
+[33mcommit 4d0b8a43f63d99deb3e21ba6e523a9f740be58db[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 11:37:27 2019 -0300
+
+    Correcao na sintaxe que define a linguagem.
+
+[33mcommit 828207267f8a5e46e401e8bb27b11f4ca5843bf4[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 11:33:52 2019 -0300
+
+    Criado arquivo de integracao com TravisCI para suporte a integracao continua.
+
+[33mcommit babc15af4ff65705f22ff30244f5e52a75ebb145[m
+Author: jeftersantoszup <jefter.santos@zup.com.br>
+Date:   Fri Apr 26 11:25:25 2019 -0300
+
+    Primeiro commit.
+
+[33mcommit 51b35b6ae25979aaee0e1cf82e383e05d6a47724[m
+Author: Jéfter Santana <31188963+JeffSSantos@users.noreply.github.com>
+Date:   Fri Apr 26 11:21:52 2019 -0300
+
+    Initial commit
